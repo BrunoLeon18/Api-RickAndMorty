@@ -3,11 +3,12 @@
     justify-content:center;
     align-items:center;
     margin:3em 0;
-    color: #fff
+    color: #fff;
+    gap: 1em;
 }
 
 .btn_pagination{
-    margin: 0 1em;
+    /* margin: 0 1em; */
     background-color: transparent;
     color: #fff;
     border: none;

@@ -20,7 +20,7 @@ function App() {
   
 useEffect(() => {
   getLocation()
-}, [ inputValue ])
+}, [inputValue])
 
 
 const handleSubmit = e => {
@@ -33,8 +33,9 @@ const handleSubmit = e => {
     setInputValue(inputItem) 
   }
   e.target.inputLocation.value = ''
-}
 
+  setPage(1)
+}
 
 const perPage = 6
 const quantyPage = Math.ceil(location?.residents.length / perPage )

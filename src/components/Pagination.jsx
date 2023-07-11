@@ -9,10 +9,6 @@ const Pagination = ({ setPage, page, quantyPage }) => {
         setPage(page - 1)
     }
 
-    if (quantyPage < page) {
-        setPage(1)
-    }
-    
   return (
    
     <div className="pagination">
@@ -28,7 +24,7 @@ const Pagination = ({ setPage, page, quantyPage }) => {
         : 
         '' }
         {quantyPage > page && 
-        <button 
+        <button
         className="btn_pagination" 
         onClick={handleNext}>
             <i className='bx bxs-chevrons-right' ></i>
