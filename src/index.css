@@ -1,0 +1,47 @@
+/* RESET */
+
+:root{
+    --bg-cart:#072226;
+    --color-green:#71a821;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family:nunito;
+    background-color: #05292e;
+}
+
+body{
+    margin: 0
+}
+
+h1, h2, h3, p, ul, hr{
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+input, button{
+    font-family:inherit;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+

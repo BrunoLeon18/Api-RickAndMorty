@@ -1,0 +1,30 @@
+.form{
+    width: 100%;
+    max-width: 320px;
+    min-width: 200px;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 2em;
+}
+
+.input_form{
+    width: 100%;
+    border-radius: 0.5em  0  0 0.5em;
+    background-color: #eee;
+    padding: 0.2em 0.8em;
+    font-weight: bold;
+}
+
+.btn_form, .input_form:focus{
+    outline:none;
+}
+
+.btn_form{
+    border-radius:0 0.5em 0.5em 0;
+    background-color: var(--color-green);
+    color: white;
+    padding: 0.2em 0.8em;
+}
+
+
